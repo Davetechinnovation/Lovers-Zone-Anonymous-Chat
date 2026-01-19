@@ -90,9 +90,17 @@ function Sidebar() {
           >
             <span>📹</span>
             <span>Video Session</span>
-          </Link> 
+          </Link>
           
-          
+          <Link 
+            to="/admin" 
+            className={`flex items-center gap-3 p-3 rounded-lg cursor-pointer transition-all hover:scale-105 active:scale-95 ${
+              location.pathname === "/admin" ? "bg-gray-800 text-cyan-400 font-bold border-l-4 border-cyan-400" : "text-gray-400 hover:bg-gray-900 hover:text-white"
+            }`}
+          >
+            <span>🛡️</span>
+            <span>Admin Panel</span>
+          </Link>
         </div>
 
         
