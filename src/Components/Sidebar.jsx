@@ -90,7 +90,7 @@ function Sidebar() {
           >
             <span>📹</span>
             <span>Video Session</span>
-          </Link>
+          </Link> 
           
           
         </div>
