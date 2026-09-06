@@ -1,16 +1,37 @@
-# React + Vite
+# Lovers Zone — Anonymous Chat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time anonymous chat platform. No accounts, no profiles — pick a name and start talking.
 
-Currently, two official plugins are available:
+**Live:** [lovers-zone-anonymous-chat.vercel.app](https://lovers-zone-anonymous-chat.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Anonymous messaging — no sign-up required
+- Real-time message sync powered by Firebase
+- Clean, mobile-first responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+| Layer | Tech |
+|---|---|
+| Frontend | React, Vite, Tailwind CSS |
+| Backend | Firebase (Firestore real-time listeners) |
+| Routing | React Router |
+| Hosting | Vercel |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run It Locally
+
+```bash
+npm install
+npm run dev
+```
+
+You will need your own Firebase project credentials for the app to connect.
+
+## Related
+
+- [Lovers Zone Admin](https://github.com/Davetechinnovation/Lovers-Zone-Anonymous-Chat-Admin) — the companion admin dashboard
+
+---
+
+Built by [Udoka Dandave (Dandy)](https://dandaveudoka.com.ng) - [GitHub](https://github.com/Davetechinnovation)
